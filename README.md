@@ -1,9 +1,4 @@
 ## Basic Instructions
-Grab dependent libraries
-```
-git submodule init
-git submodule update
-```
 
 Go to ServerProxy and build project files
 ```
