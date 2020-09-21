@@ -36,7 +36,7 @@ import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
 import android.util.Log;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.view.ErrorDialog;
 
 /**

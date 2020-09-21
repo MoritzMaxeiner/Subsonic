@@ -22,7 +22,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.ServerInfo;
 import github.daneren2005.dsub.domain.Share;
 import github.daneren2005.dsub.util.Constants;

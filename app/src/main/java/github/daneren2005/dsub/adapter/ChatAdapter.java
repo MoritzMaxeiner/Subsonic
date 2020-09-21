@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicActivity;
 import github.daneren2005.dsub.domain.ChatMessage;
 import github.daneren2005.dsub.util.ImageLoader;

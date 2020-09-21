@@ -1,6 +1,6 @@
 package github.daneren2005.dsub.activity;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import android.test.ActivityInstrumentationTestCase2;
 
 public class SubsonicFragmentActivityTest extends

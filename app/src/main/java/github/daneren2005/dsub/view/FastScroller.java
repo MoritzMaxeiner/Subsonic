@@ -34,7 +34,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 import static android.support.v7.widget.RecyclerView.OnScrollListener;
 

@@ -30,7 +30,7 @@ import static github.daneren2005.dsub.domain.PlayerState.STARTED;
 import static github.daneren2005.dsub.domain.PlayerState.STOPPED;
 import static github.daneren2005.dsub.domain.RemoteControlState.LOCAL;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicActivity;
 import github.daneren2005.dsub.audiofx.AudioEffectsController;
 import github.daneren2005.dsub.audiofx.EqualizerController;
@@ -2622,7 +2622,7 @@ public class DownloadService extends Service {
 				public Void doInBackground() throws Throwable {
 					MusicService musicService = MusicServiceFactory.getMusicService(context);
 					entry.setBookmark(new Bookmark(position));
-					musicService.createBookmark(entry, position, "Auto created by DSub", context, null);
+					musicService.createBookmark(entry, position, "Auto created by DStream", context, null);
 
 					MusicDirectory.Entry found = UpdateView.findEntry(entry);
 					if(found != null) {

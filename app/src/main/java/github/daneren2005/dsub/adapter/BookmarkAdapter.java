@@ -24,7 +24,7 @@ import android.view.MenuInflater;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.Bookmark;
 import github.daneren2005.dsub.domain.MusicDirectory;
 import github.daneren2005.dsub.util.Util;

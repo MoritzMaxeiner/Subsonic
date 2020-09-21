@@ -37,7 +37,7 @@ import android.widget.TextView;
 import java.util.HashMap;
 import java.util.Map;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.audiofx.EqualizerController;
 import github.daneren2005.dsub.audiofx.LoudnessEnhancerController;
 import github.daneren2005.dsub.service.DownloadService;

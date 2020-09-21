@@ -32,7 +32,7 @@ import android.widget.TextView;
 
 import java.io.File;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.util.FileUtil;
 
 public class CacheLocationPreference extends EditTextPreference {

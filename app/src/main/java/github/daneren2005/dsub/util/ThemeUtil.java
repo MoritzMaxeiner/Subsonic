@@ -21,7 +21,7 @@ import android.content.res.Configuration;
 
 import java.util.Locale;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SettingsActivity;
 import github.daneren2005.dsub.activity.SubsonicFragmentActivity;
 

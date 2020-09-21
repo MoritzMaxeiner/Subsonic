@@ -19,7 +19,7 @@
 package github.daneren2005.dsub.service.parser;
 
 import android.content.Context;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.PodcastChannel;
 import github.daneren2005.dsub.util.ProgressListener;
 import java.io.Reader;

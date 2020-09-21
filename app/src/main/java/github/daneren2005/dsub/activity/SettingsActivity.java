@@ -23,7 +23,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.fragments.PreferenceCompatFragment;
 import github.daneren2005.dsub.fragments.SettingsFragment;
 import github.daneren2005.dsub.util.Constants;

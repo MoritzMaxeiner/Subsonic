@@ -41,7 +41,7 @@ import android.widget.TextView;
 
 import java.lang.ref.WeakReference;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.ArtistInfo;
 import github.daneren2005.dsub.domain.InternetRadioStation;
 import github.daneren2005.dsub.domain.MusicDirectory;

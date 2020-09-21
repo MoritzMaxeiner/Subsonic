@@ -29,7 +29,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.WeakHashMap;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 public class DrawableTint {
 	private static final Map<Integer, Integer> attrMap = new HashMap<>();

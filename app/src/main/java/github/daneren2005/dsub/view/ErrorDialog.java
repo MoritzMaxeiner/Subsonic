@@ -23,7 +23,7 @@ import android.support.v7.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicFragmentActivity;
 import github.daneren2005.dsub.util.Util;
 

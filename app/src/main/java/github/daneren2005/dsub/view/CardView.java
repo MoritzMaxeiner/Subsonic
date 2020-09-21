@@ -11,7 +11,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.util.DrawableTint;
 
 public class CardView extends FrameLayout{

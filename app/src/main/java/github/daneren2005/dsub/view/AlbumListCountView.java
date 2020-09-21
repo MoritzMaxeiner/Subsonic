@@ -24,7 +24,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.MusicDirectory;
 import github.daneren2005.dsub.service.MusicService;
 import github.daneren2005.dsub.service.MusicServiceFactory;

@@ -49,7 +49,7 @@ import java.text.DecimalFormat;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicActivity;
 import github.daneren2005.dsub.service.DownloadService;
 import github.daneren2005.dsub.service.HeadphoneListenerService;

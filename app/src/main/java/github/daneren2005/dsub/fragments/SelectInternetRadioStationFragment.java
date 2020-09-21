@@ -33,7 +33,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.InternetRadioStationAdapter;
 import github.daneren2005.dsub.adapter.SectionAdapter;
 import github.daneren2005.dsub.domain.InternetRadioStation;

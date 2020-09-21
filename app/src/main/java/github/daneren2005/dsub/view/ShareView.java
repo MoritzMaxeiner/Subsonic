@@ -28,7 +28,7 @@ import android.widget.TextView;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.Share;
 
 public class ShareView extends UpdateView<Share> {

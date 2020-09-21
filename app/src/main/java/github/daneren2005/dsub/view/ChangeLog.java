@@ -54,7 +54,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.util.SparseArray;
 import android.webkit.WebView;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 
 /**

@@ -56,7 +56,7 @@
 		<item name="drawerAdmin">@drawable/ic_menu_admin</item>
 		<item name="drawerDownloading">@drawable/ic_menu_download</item>
 		<item name="drawerSettings">@drawable/ic_menu_settings</item>
-		<item name="drawerArrowStyle">@style/DSub.DrawerArrow</item>
+		<item name="drawerArrowStyle">@style/DStream.DrawerArrow</item>
 		<item name="colorPrimary">@color/lightPrimary</item>
 		<item name="colorPrimaryDark">@color/lightPrimaryDark</item>
 		<item name="colorAccent">@color/lightAccent</item>
@@ -130,7 +130,7 @@
 		<item name="drawerAdmin">@drawable/ic_menu_admin</item>
 		<item name="drawerDownloading">@drawable/ic_menu_download</item>
 		<item name="drawerSettings">@drawable/ic_menu_settings</item>
-		<item name="drawerArrowStyle">@style/DSub.DrawerArrow</item>
+		<item name="drawerArrowStyle">@style/DStream.DrawerArrow</item>
 		<item name="colorPrimary">@color/lightPrimary</item>
 		<item name="colorPrimaryDark">@color/lightPrimaryDark</item>
 		<item name="colorAccent">@color/lightAccent</item>
@@ -239,7 +239,7 @@
 	<style name="Theme.DSub.Holo.No_Color" parent="Theme.DSub.Holo.No_Color.Base">
 	</style>
 
-	<style name="DSub.DrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
+	<style name="DStream.DrawerArrow" parent="Widget.AppCompat.DrawerArrowToggle">
 		<item name="spinBars">true</item>
 	</style>
 

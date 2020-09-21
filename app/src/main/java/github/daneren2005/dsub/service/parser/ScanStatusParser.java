@@ -20,7 +20,7 @@ import org.xmlpull.v1.XmlPullParser;
 
 import java.io.Reader;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.ServerInfo;
 import github.daneren2005.dsub.util.ProgressListener;
 

@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.ArtistAdapter;
 import github.daneren2005.dsub.adapter.SectionAdapter;
 import github.daneren2005.dsub.domain.Artist;

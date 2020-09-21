@@ -22,7 +22,7 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 public class BasicListView extends UpdateView<String> {
 	private TextView titleView;

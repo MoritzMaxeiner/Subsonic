@@ -56,7 +56,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.DetailsAdapter;
 import github.daneren2005.dsub.domain.MusicDirectory;
 import github.daneren2005.dsub.domain.PlayerState;
@@ -1508,7 +1508,7 @@ public final class Util {
 			intent.putExtra("duration", (long) downloadService.getPlayerDuration());
 			intent.putExtra("position", (long) downloadService.getPlayerPosition());
 			intent.putExtra("coverart", albumArtFile.getAbsolutePath());
-			intent.putExtra("package","github.daneren2005.dsub");
+			intent.putExtra("package", "mm.dstream");
 		} else {
 			intent.putExtra("track", "");
 			intent.putExtra("artist", "");
@@ -1518,7 +1518,7 @@ public final class Util {
 			intent.putExtra("duration", (long) 0);
 			intent.putExtra("position", (long) 0);
 			intent.putExtra("coverart", "");
-			intent.putExtra("package","github.daneren2005.dsub");
+			intent.putExtra("package", "mm.dstream");
 		}
 	}
 	

@@ -61,7 +61,7 @@ import android.widget.ViewFlipper;
 import com.shehabic.droppy.DroppyClickCallbackInterface;
 import com.shehabic.droppy.DroppyMenuPopup;
 import com.shehabic.droppy.animations.DroppyFadeInAnimation;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicFragmentActivity;
 import github.daneren2005.dsub.adapter.SectionAdapter;
 import github.daneren2005.dsub.audiofx.EqualizerController;

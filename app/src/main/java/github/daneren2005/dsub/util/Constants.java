@@ -18,7 +18,7 @@
  */
 package github.daneren2005.dsub.util;
 
-import github.daneren2005.dsub.BuildConfig;
+import mm.dstream.BuildConfig;
 
 /**
  * @author Sindre Mehus
@@ -33,8 +33,8 @@ public final class Constants {
     // Note: Keep it as low as possible to maintain compatibility with older servers.
     public static final String REST_PROTOCOL_VERSION_SUBSONIC = "1.2.0";
 	public static final String REST_PROTOCOL_VERSION_MADSONIC = "2.0.0";
-    public static final String REST_CLIENT_ID = "DSub";
-    public static final String CHROMECAST_CLIENT_ID = "DSubCC";
+    public static final String REST_CLIENT_ID = "DStream";
+    public static final String CHROMECAST_CLIENT_ID = "DStreamCC";
 	public static final String LAST_VERSION = "subsonic.version";
 
     // Names for intent extras.

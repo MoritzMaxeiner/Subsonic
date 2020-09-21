@@ -648,7 +648,7 @@ public class FileUtil {
 					} else {
 						Log.w(TAG, "Failed to delete temp file, retrying");
 						
-						// This should never be reached since this is a file DSub created!
+						// This should never be reached since this is a file DStream created!
 						Thread.sleep(100L);
 						tmp = new File(dir, "checkWrite");
 						if(tmp.delete()) {

@@ -39,7 +39,7 @@ import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicActivity;
 import github.daneren2005.dsub.activity.SubsonicFragmentActivity;
 import github.daneren2005.dsub.domain.MusicDirectory;
@@ -285,7 +285,7 @@ public class DSubWidgetProvider extends AppWidgetProvider {
         views.setOnClickPendingIntent(R.id.appwidget_top, pendingIntent);
 
         // Emulate media button clicks.
-        intent = new Intent("DSub.PLAY_PAUSE");
+        intent = new Intent("DStream.PLAY_PAUSE");
         intent.setComponent(new ComponentName(context, DownloadService.class));
 		intent.setAction(DownloadService.CMD_TOGGLEPAUSE);
         if (Build.VERSION.SDK_INT >= 26)
@@ -294,7 +294,7 @@ public class DSubWidgetProvider extends AppWidgetProvider {
             pendingIntent = PendingIntent.getService(context, 0, intent, 0);
         views.setOnClickPendingIntent(R.id.control_play, pendingIntent);
 
-        intent = new Intent("DSub.NEXT");  // Use a unique action name to ensure a different PendingIntent to be created.
+        intent = new Intent("DStream.NEXT");  // Use a unique action name to ensure a different PendingIntent to be created.
         intent.setComponent(new ComponentName(context, DownloadService.class));
 		intent.setAction(DownloadService.CMD_NEXT);
         if (Build.VERSION.SDK_INT >= 26)
@@ -303,7 +303,7 @@ public class DSubWidgetProvider extends AppWidgetProvider {
             pendingIntent = PendingIntent.getService(context, 0, intent, 0);
         views.setOnClickPendingIntent(R.id.control_next, pendingIntent);
 
-        intent = new Intent("DSub.PREVIOUS");  // Use a unique action name to ensure a different PendingIntent to be created.
+        intent = new Intent("DStream.PREVIOUS");  // Use a unique action name to ensure a different PendingIntent to be created.
         intent.setComponent(new ComponentName(context, DownloadService.class));
 		intent.setAction(DownloadService.CMD_PREVIOUS);
         if (Build.VERSION.SDK_INT >= 26)

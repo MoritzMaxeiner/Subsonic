@@ -37,7 +37,7 @@ import com.google.android.gms.common.images.WebImage;
 import java.io.File;
 import java.io.IOException;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.MusicDirectory;
 import github.daneren2005.dsub.domain.PlayerState;
 import github.daneren2005.dsub.domain.RemoteControlState;

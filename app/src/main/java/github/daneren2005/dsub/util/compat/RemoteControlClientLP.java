@@ -42,7 +42,7 @@ import android.view.KeyEvent;
 import java.util.ArrayList;
 import java.util.List;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.activity.SubsonicActivity;
 import github.daneren2005.dsub.activity.SubsonicFragmentActivity;
 import github.daneren2005.dsub.domain.Bookmark;
@@ -83,7 +83,7 @@ public class RemoteControlClientLP extends RemoteControlClientBase {
 	@Override
 	public void register(Context context, ComponentName mediaButtonReceiverComponent) {
 		downloadService = (DownloadService) context;
-		mediaSession = new MediaSessionCompat(downloadService, "DSub MediaSession");
+		mediaSession = new MediaSessionCompat(downloadService, "DStream MediaSession");
 
 		Intent mediaButtonIntent = new Intent(Intent.ACTION_MEDIA_BUTTON);
 		mediaButtonIntent.setComponent(mediaButtonReceiverComponent);

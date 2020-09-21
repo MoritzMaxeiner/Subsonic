@@ -31,7 +31,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.SectionAdapter;
 import github.daneren2005.dsub.domain.User;
 import github.daneren2005.dsub.fragments.SubsonicFragment;

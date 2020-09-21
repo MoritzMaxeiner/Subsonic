@@ -28,7 +28,7 @@ import org.xmlpull.v1.XmlPullParser;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.Artist;
 import github.daneren2005.dsub.domain.Indexes;
 import github.daneren2005.dsub.domain.MusicDirectory;

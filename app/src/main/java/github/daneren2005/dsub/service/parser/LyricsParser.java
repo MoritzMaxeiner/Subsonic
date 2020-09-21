@@ -19,7 +19,7 @@
 package github.daneren2005.dsub.service.parser;
 
 import android.content.Context;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.Lyrics;
 import github.daneren2005.dsub.util.ProgressListener;
 import org.xmlpull.v1.XmlPullParser;

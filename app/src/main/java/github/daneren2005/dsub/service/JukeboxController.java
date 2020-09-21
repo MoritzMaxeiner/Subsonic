@@ -18,7 +18,7 @@ package github.daneren2005.dsub.service;
 import android.os.Handler;
 import android.util.Log;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.RemoteStatus;
 import github.daneren2005.dsub.domain.PlayerState;
 import github.daneren2005.dsub.domain.RemoteControlState;

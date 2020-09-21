@@ -25,7 +25,7 @@ import android.widget.ArrayAdapter;
 
 import java.util.List;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.service.DownloadFile;
 import github.daneren2005.dsub.util.Util;
 import github.daneren2005.dsub.view.FastScroller;

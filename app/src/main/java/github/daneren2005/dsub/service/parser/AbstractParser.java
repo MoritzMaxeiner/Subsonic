@@ -26,7 +26,7 @@ import org.xmlpull.v1.XmlPullParser;
 import android.content.Context;
 import android.util.Log;
 import android.util.Xml;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.ServerInfo;
 import github.daneren2005.dsub.domain.Version;
 import github.daneren2005.dsub.util.ProgressListener;

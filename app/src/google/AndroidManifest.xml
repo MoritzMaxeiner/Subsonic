@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="github.daneren2005.dsub">
+          package="mm.dstream">
 
     <application android:label="@string/common.appname"
          android:backupAgent="github.daneren2005.dsub.util.SettingsBackupAgent"
@@ -8,9 +8,9 @@
          android:theme="@style/Theme.DSub.Light"
          android:largeHeap="true">
 
-        <meta-data
+        <!--<meta-data
             android:name="com.google.android.backup.api_key"
-            android:value="AEdPqrEAAAAIUhOMtwa_eG-f0oYUHnetl_Cz7cO9zae8ZXOK5w" />
+            android:value="" />-->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />

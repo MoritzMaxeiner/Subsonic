@@ -37,7 +37,7 @@ import java.util.List;
 import java.util.WeakHashMap;
 
 import github.daneren2005.dsub.domain.MusicDirectory;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.util.DrawableTint;
 import github.daneren2005.dsub.util.SilentBackgroundTask;
 

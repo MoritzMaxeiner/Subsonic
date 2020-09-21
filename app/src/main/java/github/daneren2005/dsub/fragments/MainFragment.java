@@ -14,7 +14,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.MainAdapter;
 import github.daneren2005.dsub.adapter.SectionAdapter;
 import github.daneren2005.dsub.domain.ServerInfo;
@@ -386,7 +386,7 @@ public class MainFragment extends SelectRecyclerFragment<Integer> {
 
 					final Intent emailIntent = new Intent(Intent.ACTION_SEND);
 					emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{"dsub.android@gmail.com"});
-					emailIntent.putExtra(Intent.EXTRA_SUBJECT, "DSub " + packageInfo.versionName + " Error Logs");
+					emailIntent.putExtra(Intent.EXTRA_SUBJECT, "DStream " + packageInfo.versionName + " Error Logs");
 					emailIntent.putExtra(Intent.EXTRA_TEXT, "Describe the problem here\n\n\n" + footer);
 					emailIntent.setSelector( selectorIntent );
 

@@ -19,7 +19,7 @@ import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 public class BasicHeaderView extends UpdateView<String> {
 	TextView nameView;

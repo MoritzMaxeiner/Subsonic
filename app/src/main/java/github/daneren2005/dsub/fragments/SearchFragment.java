@@ -22,7 +22,7 @@ import android.view.View;
 import android.view.MenuItem;
 import android.net.Uri;
 import android.view.ViewGroup;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.ArtistAdapter;
 import github.daneren2005.dsub.adapter.EntryGridAdapter;
 import github.daneren2005.dsub.adapter.SearchAdapter;

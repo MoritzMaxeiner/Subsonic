@@ -22,7 +22,7 @@ import android.view.Menu;
 
 import java.io.File;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.ServerInfo;
 import github.daneren2005.dsub.service.DownloadFile;
 import github.daneren2005.dsub.view.AlbumView;

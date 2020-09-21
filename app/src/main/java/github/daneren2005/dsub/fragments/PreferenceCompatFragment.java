@@ -38,7 +38,7 @@ import android.widget.ListView;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.util.Constants;
 
 public abstract class PreferenceCompatFragment extends SubsonicFragment {

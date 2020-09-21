@@ -22,7 +22,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.SectionAdapter;
 import github.daneren2005.dsub.adapter.SimilarArtistAdapter;
 import github.daneren2005.dsub.domain.Artist;

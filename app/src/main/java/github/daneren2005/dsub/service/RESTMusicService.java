@@ -42,7 +42,7 @@ import android.net.NetworkInfo;
 import android.util.Base64;
 import android.util.Log;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.*;
 import github.daneren2005.dsub.fragments.MainFragment;
 import github.daneren2005.dsub.service.parser.EntryListParser;

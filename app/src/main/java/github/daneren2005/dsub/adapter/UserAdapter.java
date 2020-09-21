@@ -22,7 +22,7 @@ import android.widget.ArrayAdapter;
 
 import java.util.List;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.User;
 import github.daneren2005.dsub.util.ImageLoader;
 import github.daneren2005.dsub.view.UpdateView;

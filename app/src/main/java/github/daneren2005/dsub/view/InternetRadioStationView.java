@@ -19,7 +19,7 @@ import android.view.LayoutInflater;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.InternetRadioStation;
 
 public class InternetRadioStationView extends UpdateView<InternetRadioStation> {

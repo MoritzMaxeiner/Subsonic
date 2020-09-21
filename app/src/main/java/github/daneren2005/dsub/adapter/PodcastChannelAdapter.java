@@ -21,7 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.PodcastChannel;
 import github.daneren2005.dsub.domain.PodcastEpisode;
 import github.daneren2005.dsub.util.DrawableTint;

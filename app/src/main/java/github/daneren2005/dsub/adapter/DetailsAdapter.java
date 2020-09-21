@@ -27,7 +27,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 public class DetailsAdapter extends ArrayAdapter<String> {
 	private List<String> headers;

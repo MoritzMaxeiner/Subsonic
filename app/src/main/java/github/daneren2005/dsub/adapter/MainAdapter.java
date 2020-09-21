@@ -23,7 +23,7 @@ import android.widget.CompoundButton;
 
 import java.util.List;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.ServerInfo;
 import github.daneren2005.dsub.util.Util;
 import github.daneren2005.dsub.view.AlbumListCountView;

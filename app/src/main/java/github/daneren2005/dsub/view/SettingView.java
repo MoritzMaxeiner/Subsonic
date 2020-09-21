@@ -21,7 +21,7 @@ import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TextView;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.domain.User;
 import github.daneren2005.dsub.domain.User.MusicFolderSetting;
 

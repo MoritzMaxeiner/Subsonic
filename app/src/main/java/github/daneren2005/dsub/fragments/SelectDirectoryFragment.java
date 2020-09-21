@@ -29,7 +29,7 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 import github.daneren2005.dsub.adapter.AlphabeticalAlbumAdapter;
 import github.daneren2005.dsub.adapter.EntryInfiniteGridAdapter;
 import github.daneren2005.dsub.adapter.EntryGridAdapter;

@@ -18,7 +18,7 @@
  */
 package github.daneren2005.dsub.provider;
 
-import github.daneren2005.dsub.R;
+import mm.dstream.R;
 
 public class DSubWidget4x4 extends DSubWidgetProvider {
 	@Override
