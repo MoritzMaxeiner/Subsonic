@@ -4,7 +4,8 @@
 
     <application android:label="@string/common.appname"
          android:backupAgent="github.daneren2005.dsub.util.SettingsBackupAgent"
-         android:icon="@drawable/launch"
+         android:icon="@mipmap/ic_launcher"
+         android:roundIcon="@mipmap/ic_launcher_round"
          android:theme="@style/Theme.DSub.Light"
          android:largeHeap="true">
 
