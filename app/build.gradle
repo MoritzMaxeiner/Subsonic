@@ -1,5 +1,17 @@
 apply plugin: 'com.android.application'
 
+def hasDebugKeystoreProperties = rootProject.file("keystores/debug.properties").exists()
+def debugKeystoreProperties = new Properties()
+if (hasDebugKeystoreProperties) {
+	debugKeystoreProperties.load(new FileInputStream(rootProject.file("keystores/debug.properties")))
+}
+
+def hasReleaseKeystoreProperties = rootProject.file("keystores/release.properties").exists()
+def releaseKeystoreProperties = new Properties()
+if (hasReleaseKeystoreProperties) {
+	releaseKeystoreProperties.load(new FileInputStream(rootProject.file("keystores/release.properties")))
+}
+
 android {
 	compileSdkVersion 30
 
@@ -19,12 +31,33 @@ android {
 		resValue 'string', 'provider.starred', applicationId + ".starred.provider"
 		resValue 'string', 'provider.recently_added', applicationId + ".mostrecent.provider"
 	}
+
+	signingConfigs {
+		debug {
+			if (hasDebugKeystoreProperties) {
+				storeFile file(debugKeystoreProperties['storeFile'])
+				storePassword debugKeystoreProperties['storePassword']
+				keyAlias debugKeystoreProperties['keyAlias']
+				keyPassword debugKeystoreProperties['keyPassword']
+			}
+		}
+		release {
+			if (hasReleaseKeystoreProperties) {
+				storeFile file(releaseKeystoreProperties['storeFile'])
+				storePassword releaseKeystoreProperties['storePassword']
+				keyAlias releaseKeystoreProperties['keyAlias']
+				keyPassword releaseKeystoreProperties['keyPassword']
+			}
+		}
+	}
+
 	buildTypes {
 		release {
 			minifyEnabled true
 			shrinkResources true
 			proguardFiles 'proguard.cfg'
 			zipAlignEnabled true
+			signingConfig signingConfigs.release
 		}
 	}
 	flavorDimensions "version"
