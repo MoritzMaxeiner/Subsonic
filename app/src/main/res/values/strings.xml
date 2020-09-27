@@ -356,10 +356,8 @@
 	<string name="settings.audio_transcode_format">Transcode Audio Format</string>
 	<string name="settings.audio_transcode_format_raw">raw</string>
 	<string name="settings.audio_transcode_format_opus">opus</string>
-	<string name="settings.audio_transcode_format_ogg">ogg</string>
 	<string name="settings.audio_transcode_format_aac">aac</string>
 	<string name="settings.audio_transcode_format_mp3">mp3</string>
-	<string name="settings.audio_transcode_format_m4a">m4a</string>
 	<string name="settings.audio_transcode_format_flac">flac</string>
 	<string name="settings.network_timeout_title">Network Timeout</string>
 	<string name="settings.network_timeout_10000">10 seconds</string>
