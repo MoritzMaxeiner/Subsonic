@@ -202,51 +202,46 @@ public class SubsonicFragmentActivity extends SubsonicActivity implements Downlo
 			}
 
 			@Override
-			public void onPanelCollapsed(View panel) {
-				isPanelClosing = false;
-				if(bottomBar.getVisibility() == View.GONE) {
-					bottomBar.setVisibility(View.VISIBLE);
-					nowPlayingToolbar.setVisibility(View.GONE);
-					nowPlayingFragment.setPrimaryFragment(false);
-					setSupportActionBar(mainToolbar);
-					recreateSpinner();
+			public void onPanelStateChanged(View panel, SlidingUpPanelLayout.PanelState previousState, SlidingUpPanelLayout.PanelState newState)
+			{
+				switch (newState) {
+					case COLLAPSED:
+						isPanelClosing = false;
+						if(bottomBar.getVisibility() == View.GONE) {
+							bottomBar.setVisibility(View.VISIBLE);
+							nowPlayingToolbar.setVisibility(View.GONE);
+							nowPlayingFragment.setPrimaryFragment(false);
+							setSupportActionBar(mainToolbar);
+							recreateSpinner();
+						}
+						break;
+					case EXPANDED:
+						isPanelClosing = false;
+						currentFragment.stopActionMode();
+
+						// Disable custom view before switching
+						getSupportActionBar().setDisplayShowCustomEnabled(false);
+						getSupportActionBar().setDisplayShowTitleEnabled(true);
+
+						bottomBar.setVisibility(View.GONE);
+						nowPlayingToolbar.setVisibility(View.VISIBLE);
+						setSupportActionBar(nowPlayingToolbar);
+
+						if(secondaryFragment == null) {
+							nowPlayingFragment.setPrimaryFragment(true);
+						} else {
+							secondaryFragment.setPrimaryFragment(true);
+						}
+
+						drawerToggle.setDrawerIndicatorEnabled(false);
+						getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+						break;
+					default:
+						break;
 				}
-			}
-
-			@Override
-			public void onPanelExpanded(View panel) {
-				isPanelClosing = false;
-				currentFragment.stopActionMode();
-
-				// Disable custom view before switching
-				getSupportActionBar().setDisplayShowCustomEnabled(false);
-				getSupportActionBar().setDisplayShowTitleEnabled(true);
-
-				bottomBar.setVisibility(View.GONE);
-				nowPlayingToolbar.setVisibility(View.VISIBLE);
-				setSupportActionBar(nowPlayingToolbar);
-
-				if(secondaryFragment == null) {
-					nowPlayingFragment.setPrimaryFragment(true);
-				} else {
-					secondaryFragment.setPrimaryFragment(true);
-				}
-
-				drawerToggle.setDrawerIndicatorEnabled(false);
-				getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-			}
-
-			@Override
-			public void onPanelAnchored(View panel) {
-
-			}
-
-			@Override
-			public void onPanelHidden(View panel) {
-
 			}
 		};
-		slideUpPanel.setPanelSlideListener(panelSlideListener);
+		slideUpPanel.addPanelSlideListener(panelSlideListener);
 
 		if(getIntent().hasExtra(Constants.INTENT_EXTRA_NAME_DOWNLOAD)) {
 			// Post this later so it actually runs
@@ -507,7 +502,7 @@ public class SubsonicFragmentActivity extends SubsonicActivity implements Downlo
 		}
 
 		if(savedInstanceState.getInt(Constants.MAIN_SLIDE_PANEL_STATE, -1) == SlidingUpPanelLayout.PanelState.EXPANDED.hashCode()) {
-			panelSlideListener.onPanelExpanded(null);
+			panelSlideListener.onPanelStateChanged(null, SlidingUpPanelLayout.PanelState.HIDDEN, SlidingUpPanelLayout.PanelState.EXPANDED);
 		}
 	}
 
